@@ -64,5 +64,5 @@ Get STRING_NAME from here:
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-silver)](https://replit.com/@HuntingBots/Matrixvcbot)
 
 
-## Credits, and Thanks to 
-*   [The Ghost Hunter](https://telegram.dog/The_Ghost_Hunter)
+## Special Thanks To
+##   My Buddy ==>> [The Ghost Hunter](https://telegram.dog/The_Ghost_Hunter)
