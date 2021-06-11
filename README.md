@@ -2,14 +2,6 @@
 
 ### A bot that can play music on telegram group's voice call
 
-### Telegram Group
-<p align="left">
-<a href="https://t.me/AsunaRobotSupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
-
-### Bot And Channel 
-* Available On :  <a href="http://t.me/My_Asuna_Robot" alt="AsunaRobot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Asuna_Robot-blue" /> </a>
-* Support Channel: <a  href="https://t.me/AsunaLogUpdate" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-AsunaRobot%20Log%20Channel-9cf" /> </a>
-
 
 <p align="center">
   <img src="https://telegra.ph/file/3cef9662e86bd313ec045.jpg">
@@ -65,18 +57,12 @@ You can set Channel Music Play like this:
 
 # How To Host
 The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/HuntingBots/AsunaMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/developer-boy-sdowner/SheebaMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 Get STRING_NAME from here:
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-silver)](https://replit.com/@HuntingBots/Matrixvcbot)
 
-
-## Our Telegram Channel and Group
-
-* [Support](https://telegram.dog/AsunaRobotSupport)
-* [Discussion](https://telegram.dog/helpcentrebot1)
-* [Second Group](https://telegram.dog/fire_world_entertainment)
 
 ## Credits, and Thanks to 
 *   [The Ghost Hunter](https://telegram.dog/The_Ghost_Hunter)
