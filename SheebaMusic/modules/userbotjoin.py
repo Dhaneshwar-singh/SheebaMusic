@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 
-from AsunaMusic.helpers.decorators import authorized_users_only, errors
-from AsunaMusic.services.callsmusic.callsmusic import client as USER
+from SheebaMusic.helpers.decorators import authorized_users_only, errors
+from SheebaMusic.services.callsmusic.callsmusic import client as USER
 
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
