@@ -50,7 +50,7 @@
 You can set Channel Music Play like this:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add @My_Asuna_Robot as Channel admin with full perms
+ 3. Add SheebaMusic Robot as Channel admin with full perms
  4. Send /userbotjoin in Channel
  5. Simply send commands in your group.
 
