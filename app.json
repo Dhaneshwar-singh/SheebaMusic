@@ -1,7 +1,7 @@
 {
     "name": "Sheeba Music",
     "logo": "https://telegra.ph/file/3cef9662e86bd313ec045.jpg",
-    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by [Asuna Robot](https://t.me/My_Asuna_Robot).",
+    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat..",
     "keywords": ["music", "voicechat", "telegram"],
     "repository": "https://github.com/developer-boy-sdowner/SheebaMusic",
     "stack": "container",
