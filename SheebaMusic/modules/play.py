@@ -196,7 +196,7 @@ def updated_stats(chat, queue, vol=100):
         stats = None
     return stats
 
-
+"""
 def r_ply(type_):
     if type_ == "aplay":
         pass
@@ -217,7 +217,7 @@ def r_ply(type_):
         ]
     )
     return mar
-
+"""
 
 
 @Client.on_message(filters.command("current") & filters.group & ~filters.edited)
@@ -664,7 +664,7 @@ async def play(_, message: Message):
 
 #admin only play
 
-
+"""
 
 @Client.on_message(command("aplay") & other_filters
     
@@ -907,7 +907,7 @@ async def play(_, message: Message):
         os.remove("final.png")
         return await lel.delete()
 
-
+"""
 #close
 @Client.on_message(filters.command("dplay") & filters.group & ~filters.edited)
 async def deezer(client: Client, message_: Message):
