@@ -180,7 +180,7 @@ def r_ply(type_):
     )
     return mar
 #__adminonly setting
-
+"""
 def updated_stats(chat, queue, vol=100):
     if chat.id in callsmusic.pytgcalls.active_calls:
         # if chat.id in active_chats:
@@ -195,7 +195,7 @@ def updated_stats(chat, queue, vol=100):
         stats = None
     return stats
 
-"""
+
 def r_ply(type_):
     if type_ == "aplay":
         pass
