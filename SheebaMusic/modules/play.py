@@ -179,6 +179,44 @@ def r_ply(type_):
         ]
     )
     return mar
+#__adminonly setting
+
+def updated_stats(chat, queue, vol=100):
+    if chat.id in callsmusic.pytgcalls.active_calls:
+        # if chat.id in active_chats:
+        stats = "Settings of **{}**".format(chat.title)
+        if len(que) > 0:
+            stats += "\n\n"
+            stats += "Volume : {}%\n".format(vol)
+            stats += "Songs in queue : `{}`\n".format(len(que))
+            stats += "Now Playing : **{}**\n".format(queue[0][0])
+            stats += "Requested by : {}".format(queue[0][1].mention)
+    else:
+        stats = None
+    return stats
+
+
+def r_ply(type_):
+    if type_ == "aplay":
+        pass
+    else:
+        pass
+    mar = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton("⏹", "leave"),
+                InlineKeyboardButton("⏸", "puse"),
+                InlineKeyboardButton("▶️", "resume"),
+                InlineKeyboardButton("⏭", "skip"),
+            ],
+            [
+                InlineKeyboardButton("Playlist 📖", "playlist"),
+            ],
+            [InlineKeyboardButton("❌ Close", "cls")],
+        ]
+    )
+    return mar
+
 
 
 @Client.on_message(filters.command("current") & filters.group & ~filters.edited)
