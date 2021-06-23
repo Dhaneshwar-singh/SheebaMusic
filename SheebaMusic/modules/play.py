@@ -665,7 +665,10 @@ async def play(_, message: Message):
 
 
 
-@Client.on_message(command("aplay") & other_filters)
+@Client.on_message(command("aplay") & other_filters
+    & filters.group
+    & ~ filters.edited
+)
 @admin_only
 async def play(_, message: Message):
     global que
