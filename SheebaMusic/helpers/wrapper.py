@@ -4,7 +4,7 @@ from pyrogram import Client
 from pyrogram.types import Message
 
 from SheebaMusic.helpers.admins import get_administrators
-from config import SUDO_USERS
+from SheebaMusic.config import SUDO_USERS
 
 
 def errors(func: Callable) -> Coroutine:
