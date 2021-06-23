@@ -15,7 +15,6 @@ from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
-from SheebaMusic.helpers.wrapper  import admins_only
 
 from SheebaMusic.config import ARQ_API_KEY
 from SheebaMusic.config import BOT_NAME as bn
