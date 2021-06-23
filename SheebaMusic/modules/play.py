@@ -25,7 +25,7 @@ from SheebaMusic.function.admins import admins as a
 from SheebaMusic.helpers.admins import get_administrators
 from SheebaMusic.helpers.channelmusic import get_chat_id
 from SheebaMusic.helpers.errors import DurationLimitError
-from SheebaMusic.helpers.decorators import errors
+from SheebaMusic.helpers.decorators import errors, admins_only
 from SheebaMusic.helpers.decorators import authorized_users_only
 from SheebaMusic.helpers.filters import command, other_filters
 from SheebaMusic.helpers.gets import get_file_name
@@ -666,10 +666,9 @@ async def play(_, message: Message):
 
 
 @Client.on_message(command("aplay") & other_filters
-    & filters.group
-    & ~ filters.edited
+    
 )
-
+@admins_only
 async def play(_, message: Message):
     global que
     lel = await message.reply("🔄 **Processing**")
