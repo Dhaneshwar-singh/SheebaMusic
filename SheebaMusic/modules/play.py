@@ -281,7 +281,7 @@ async def p_cb(b, cb):
 
 
 @Client.on_callback_query(
-    filters.regex(pattern=r"^(play|pause|skip|leave|puse|resume|menu|cls)$")
+    filters.regex(pattern=r"^(play|aplay|pause|skip|leave|puse|resume|menu|cls)$")
 )
 @cb_admin_check
 async def m_cb(b, cb):
