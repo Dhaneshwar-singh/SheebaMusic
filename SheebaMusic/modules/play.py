@@ -669,7 +669,7 @@ async def play(_, message: Message):
     & filters.group
     & ~ filters.edited
 )
-@admin_only
+
 async def play(_, message: Message):
     global que
     lel = await message.reply("🔄 **Processing**")
