@@ -21,3 +21,9 @@ async def get_administrators(chat: Chat) -> List[User]:
 
         set(chat.id, to_set)
         return await get_administrators(chat)
+async def get_administrators (chat : chat )-> List [User]:
+    get =gett(chat.id)
+    if get :
+        return get
+    else:
+        for administrators in administrators 
