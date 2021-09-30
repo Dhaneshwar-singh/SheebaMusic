@@ -139,6 +139,33 @@ async def playlist(client, message):
             msg += f"\n- {name}"
             msg += f"\n- Req by {usr}\n"
     await message.reply_text(msg)
+   # ============================ current playing
+
+
+@Client.on_message(filters.command("cplaying") & filters.group & ~filters.edited)
+async def playlist(client, message):
+    global que
+    queue = que.get(message.chat.id)
+    if not queue:
+        await message.reply_text("Player is idle")
+    temp = []
+    for t in queue:
+        temp.append(t)
+    now_playing = temp[0][0]
+    by = temp[0][1].mention(style="md")
+    msg = "**Now Playing** in {}".format(message.chat.title)
+    msg += "\n- " + now_playing
+    msg += "\n- Req by " + by
+    temp.pop(0)
+    if temp:
+        msg += "\n\n"
+        msg += "**Queue**"
+        for song in temp:
+            name = song[0]
+            usr = song[1].mention(style="md")
+            msg += f"\n- {name}"
+            msg += f"\n- Req by {usr}\n"
+    await message.reply_text(msg)
 
 
 # ============================= Settings =========================================
